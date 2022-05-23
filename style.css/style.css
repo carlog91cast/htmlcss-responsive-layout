@@ -28,15 +28,7 @@ header {
     width: 70px;
 }
 
-a {
-    text-decoration: none;
-    background-color: #0C83FB;
-    color: white;
-    padding: 10px 40px;
-    border-radius: 25px;
-    text-align: center;
-
-}
+/* big img */
 
 .cards-application h3 {
     color: #0C83FB;
@@ -51,6 +43,15 @@ a {
     margin: 15px 0 30px;
     padding: 0 10px;
 }
+
+.cards-application a {
+    background-color: #9792E4;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 50px 0;
+}
+
+/* small img */
 
 .cards-applications h3 {
     color: #0C83FB;
@@ -164,6 +165,17 @@ a {
 
     .sub p {
         color: black;
+        font-size: 18px;
+        line-height: 30px;
     }
+
+    .anchor {
+        background-color: #9792E4;
+        padding: 15px;
+        width: 23%;
+        border-radius: 50%;
+        margin: 50px auto;
+    }
+
 
 }
