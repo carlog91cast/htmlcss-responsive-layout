@@ -38,11 +38,6 @@ a {
 
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .cards-application h3 {
     color: #0C83FB;
     font-size: 25px;
@@ -55,6 +50,25 @@ a {
     text-align: left;
     margin: 15px 0 30px;
     padding: 0 10px;
+}
+
+.cards-applications h3 {
+    color: #0C83FB;
+    font-size: 25px;
+    margin: 15px 0;
+
+}
+
+.cards-applications p {
+    color: #5A6E7F;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+
+.cards-applications i {
+    color: #0C83FB;
+    padding-top: 15px;
 }
 
 .cards-application img {
@@ -83,7 +97,12 @@ a {
         display: none;
     }
 
-    /* applications */
+    /* application big-img */
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
 
     .cards-application {
         text-align: center;
@@ -92,4 +111,59 @@ a {
         margin: 50px auto 0;
         border-radius: 20px;
     }
+
+    /* applications small-img */
+
+    .cards-applications {
+        text-align: center;
+        background-color: #B5DDFD;
+        padding: 20px;
+        margin: 30px auto;
+        border-radius: 20px;
+    }
+
+    /* planning */
+
+    .container-plan {
+        background-color: #9792E4;
+        padding-bottom: 60px;
+    }
+
+    .planning {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .planning h2 {
+        font-size: 25px;
+        margin: 30px 0;
+        color: white;
+    }
+
+    .planning p {
+        color: white;
+    }
+
+    .planning img {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .sub {
+        background-color: white;
+        border-radius: 40px;
+        margin: 30px auto 0;
+        text-align: center;
+        color: black;
+    }
+
+    .sub h2 {
+        color: black;
+    }
+
+    .sub p {
+        color: black;
+    }
+
 }
