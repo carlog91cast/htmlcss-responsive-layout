@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+body {
+    font-family: "PT Sans";
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header {
+    background-color: #0C83FB;
+}
+
+.hamburger i {
+    color: white;
+}
+
+
+/* MOBILE FIRST */
+
+@media screen and (max-width: 480px) {
+
+    .header-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        display: none;
+    }
+}
