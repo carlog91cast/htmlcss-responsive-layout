@@ -29,6 +29,40 @@ header {
     width: 70px;
 }
 
+
+
+
+/* mobile header */
+
+
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav {
+    display: none;
+}
+
+/* application big-img */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards-application {
+    text-align: center;
+    background-color: #B5DDFD;
+    padding: 20px 20px 0;
+    margin: 50px auto 0;
+    border-radius: 20px;
+}
+
 /* big img */
 
 .cards-application h3 {
@@ -80,238 +114,207 @@ header {
     margin: 30px 0 -8px;
 }
 
+/* applications small-img */
 
+.cards-applications {
+    text-align: center;
+    background-color: #B5DDFD;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+}
 
+/* planning */
 
-/* MOBILE FIRST */
+.container-plan {
+    background-color: #9792E4;
+    padding-bottom: 60px;
+}
 
-/* mobile header */
+.planning {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
 
-@media screen and (max-width: 480px) {
+.planning h2 {
+    font-size: 32px;
+    margin: 30px 0;
+    color: white;
+}
 
-    .header-container {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 30px;
-    }
+.planning p {
+    color: white;
+}
 
-    nav {
-        display: none;
-    }
+.planning img {
+    width: 100%;
+    margin: 40px 0;
+}
 
-    /* application big-img */
+.sub {
+    background-color: white;
+    border-radius: 40px;
+    margin: 30px auto 0;
+    text-align: center;
+    color: black;
+}
 
-    .container {
-        width: 80%;
-        margin: 0 auto;
-    }
+.sub h2 {
+    color: black;
+}
 
-    .cards-application {
-        text-align: center;
-        background-color: #B5DDFD;
-        padding: 20px 20px 0;
-        margin: 50px auto 0;
-        border-radius: 20px;
-    }
+.sub p {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+}
 
-    /* applications small-img */
+.anchor {
+    background-color: #9792E4;
+    padding: 15px;
+    width: 23%;
+    border-radius: 50%;
+    margin: 50px auto;
+}
 
-    .cards-applications {
-        text-align: center;
-        background-color: #B5DDFD;
-        padding: 20px;
-        margin: 30px auto;
-        border-radius: 20px;
-    }
+/* testimonials */
 
-    /* planning */
+.white-section {
+    text-align: center;
+    padding: 44px;
+}
 
-    .container-plan {
-        background-color: #9792E4;
-        padding-bottom: 60px;
-    }
+.white-section h2 {
+    color: #9792E4;
+    font-size: 35px;
+    line-height: 55px;
+    margin: 30px 0;
+}
 
-    .planning {
-        width: 80%;
-        margin: 0 auto;
-        padding: 10px;
-    }
+.white-section h3 {
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 40px;
+}
 
-    .planning h2 {
-        font-size: 32px;
-        margin: 30px 0;
-        color: white;
-    }
+/* testimonials cards */
 
-    .planning p {
-        color: white;
-    }
-
-    .planning img {
-        width: 100%;
-        margin: 40px 0;
-    }
-
-    .sub {
-        background-color: white;
-        border-radius: 40px;
-        margin: 30px auto 0;
-        text-align: center;
-        color: black;
-    }
-
-    .sub h2 {
-        color: black;
-    }
-
-    .sub p {
-        color: black;
-        font-size: 18px;
-        line-height: 30px;
-        padding: 5px;
-    }
-
-    .anchor {
-        background-color: #9792E4;
-        padding: 15px;
-        width: 23%;
-        border-radius: 50%;
-        margin: 50px auto;
-    }
-
-    /* testimonials */
-
-    .white-section {
-        text-align: center;
-        padding: 44px;
-    }
-
-    .white-section h2 {
-        color: #9792E4;
-        font-size: 35px;
-        line-height: 55px;
-        margin: 30px 0;
-    }
-
-    .white-section h3 {
-        font-size: 23px;
-        font-weight: 200;
-        line-height: 40px;
-    }
-
-    /* testimonials cards */
-
-    .review-cards {
-        width: 80%;
-        margin: 30px auto;
-        border-radius: 40px;
-        background-color: #9792E4;
-        padding: 30px;
-        color: white;
-        font-weight: 100;
-        text-align: center;
-
-    }
-
-    .review-cards img {
-        width: 100%;
-        border-radius: 50%;
-    }
-
-    .review-cards p {
-        margin: 20px 0;
-        font-size: 18px;
-    }
-
-    /* benefits */
-    .benefits {
-        background-color: #9792E4;
-        padding: 10px 0;
-    }
-
-    .benefits h2 {
-        color: white;
-        text-align: center;
-        font-size: 35px;
-        padding: 40px 10px;
-        margin: 20px auto;
-    }
-
-    .benefit-card {
-        width: 85%;
-        margin: 30px auto;
-        background-color: white;
-        border-radius: 40px;
-        padding: 30px;
-    }
-    .benefit-card h1{
-        color: #9792E4;
-    }
-    .benefit-card h3 {
-        font-size: 25px;
-        color: #9792E4;
-    }
-    .benefit-card p{
-        margin: 10px 0 30px;
-        font-weight: 200;
-    }
-    .benefit-card a {
-        background-color: #9792E4;
-        padding: 10px 30px;
-        border-radius: 20px;
-        text-decoration: none;
-        color: white;
-        margin: 30px 0;
-    }
-
-    /* About */
-
-    .text {
-        padding: 30px;
-    }
-     .text h2{
-        color:#9792E4;
-        font-size: 35px;
-        padding: 40px 10px;
-        margin: 10px auto;
-    }
-    .text p {
-        margin: 10px 0 30px;
-        font-weight: 100;
-        font-size: 18px;
-        line-height: 2.0;
-    }
-
-    .linkedin {
-        padding: 30px;
-        margin: -30px 0;
-        position: relative;
-    }
-    .linkedin img {
-        width: 50%;
-        border-radius: 50%;
-    }
-    .abs {
-        position: absolute;
-        color: #9792E4;
-    }
-    .linkedin h3 {
-        margin: 20px 0;
-        font-size: 25px;
-        color: #9792E4; 
-    }
-    .linkedin a {
-        background-color: #9792E4;
-        color: white;
-        padding: 10px 30px;
-        text-decoration: none;
-        border-radius: 20px;
-
-    }
+.review-cards {
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 40px;
+    background-color: #9792E4;
+    padding: 30px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
 
 }
 
+.review-cards img {
+    width: 100%;
+    border-radius: 50%;
+}
 
+.review-cards p {
+    margin: 20px 0;
+    font-size: 18px;
+}
 
+/* benefits */
+.benefits {
+    background-color: #9792E4;
+    padding: 10px 0;
+}
+
+.benefits h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px 10px;
+    margin: 20px auto;
+}
+
+.benefit-card {
+    width: 85%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.benefit-card h1 {
+    color: #9792E4;
+}
+
+.benefit-card h3 {
+    font-size: 25px;
+    color: #9792E4;
+}
+
+.benefit-card p {
+    margin: 10px 0 30px;
+    font-weight: 200;
+}
+
+.benefit-card a {
+    background-color: #9792E4;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0;
+}
+
+/* About */
+
+.text {
+    padding: 30px;
+}
+
+.text h2 {
+    color: #9792E4;
+    font-size: 35px;
+    padding: 40px 10px;
+    margin: 10px auto;
+}
+
+.text p {
+    margin: 10px 0 30px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+.linkedin {
+    padding: 30px;
+    margin: -30px 0;
+    position: relative;
+}
+
+.linkedin img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.abs {
+    position: absolute;
+    color: #9792E4;
+}
+
+.linkedin h3 {
+    margin: 20px 0;
+    font-size: 25px;
+    color: #9792E4;
+}
+
+.linkedin a {
+    background-color: #9792E4;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
