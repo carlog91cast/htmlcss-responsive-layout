@@ -255,6 +255,7 @@ header {
     }
     .benefit-card p{
         margin: 10px 0 30px;
+        font-weight: 200;
     }
     .benefit-card a {
         background-color: #9792E4;
@@ -264,4 +265,50 @@ header {
         color: white;
         margin: 30px 0;
     }
+
+    /* About */
+
+    .text {
+        padding: 30px;
+    }
+     .text h2{
+        color:#9792E4;
+        font-size: 35px;
+        padding: 40px 10px;
+        margin: 10px auto;
+    }
+    .text p {
+        margin: 10px 0 30px;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .linkedin {
+        padding: 30px;
+        margin: -30px 0;
+        position: relative;
+    }
+    .linkedin img {
+        width: 50%;
+        border-radius: 50%;
+    }
+    .abs {
+        position: absolute;
+        color: #9792E4;
+    }
+    .linkedin h3 {
+        margin: 20px 0;
+        font-size: 25px;
+        color: #9792E4; 
+    }
+    .linkedin a {
+        background-color: #9792E4;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        border-radius: 20px;
+
+    }
+
 }
