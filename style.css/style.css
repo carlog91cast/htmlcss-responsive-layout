@@ -318,3 +318,14 @@ nav {
     border-radius: 20px;
 
 }
+
+@media screen and (min-width: 481px) {
+
+    .container {
+        display: flex;
+    }
+
+    .cards-application {}
+
+    .cards-applications {}
+}
